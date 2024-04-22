@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,175,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.inputContainer{
+    display: flex;
+    margin-top: 20px;
+    background-color: gray;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+.inputContainer input{
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.inputContainer input::placeholder{
+    color: #fff;
+    font-size: 17px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 490px;
+    text-align: center;
+    box-shadow: 1px 3px 8px rgba(0,0,0,0.5);
+}
+
+span{
+    color: #000;
+}
+
+h2{
+    font-size: 35px;
+}
